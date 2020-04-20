@@ -67,7 +67,7 @@ const Home = () => {
         <img src={art} alt="Neuromancer" />
         <div className="text-wrapper">
         <p>
-          {highlighted.map(word => <span key={key++} className="cyan">{word}</span>)}
+          {highlighted.map(word => <span key={key++} className="cyan">{word} </span>)}
           {paragraph.join(' ')}
         </p>
         </div>
